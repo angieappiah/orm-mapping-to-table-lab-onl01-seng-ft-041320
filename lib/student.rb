@@ -13,7 +13,7 @@ class Student
   end
 
   def create_table
-    sql = CREATE TABLE IF NOT EXIST students ( id INTEGER PRIMARY KEY, name TEXT, grade INTEGER)
+    sql = CREATE TABLE IF NOT EXIST students ( id INTEGER PRIMARY KEY, name TEXT, grade INTEGER )
 
   end
 
