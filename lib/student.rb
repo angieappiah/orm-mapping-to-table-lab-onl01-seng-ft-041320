@@ -1,4 +1,4 @@
-require_relative '../environment'
+require_relative '../environment.rb'
 
 class Student
   attr_accessor :name, :grade
