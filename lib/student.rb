@@ -4,6 +4,7 @@ class Student
   def initialize (name, grade, id = nill)
     @name = name
     @grade = grade
+    @id = id
     @@all << self
   end
 
