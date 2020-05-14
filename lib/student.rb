@@ -27,7 +27,6 @@ class Student
 
   def self.drop_table
     sql = drop_table students
-
   end
 
   # Remember, you can access your database connection anywhere in this class
