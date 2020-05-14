@@ -5,7 +5,6 @@ class Student
     @name = name
     @grade = grade
     @id = id
-    @@all << self
   end
 
   def self.all
