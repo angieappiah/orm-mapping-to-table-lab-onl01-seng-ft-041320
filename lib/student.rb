@@ -5,6 +5,10 @@ class Student
     @name = name
     @grade = grade
     @@all << self
+  end
+
+  def self.all
+    @@all
 
   end
 
