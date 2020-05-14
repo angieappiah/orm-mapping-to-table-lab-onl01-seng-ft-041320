@@ -10,7 +10,6 @@ class Student
 
   def self.all
     @@all
-
   end
 
   # Remember, you can access your database connection anywhere in this class
