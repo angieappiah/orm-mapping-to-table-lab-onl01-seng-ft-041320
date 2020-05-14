@@ -13,6 +13,7 @@ class Student
   end
 
   def create_table
+    sql = CREATE TABLE students (id INTEGER PRIMARY KEY, name TEXT, grade INTEGER)
 
   end
 
